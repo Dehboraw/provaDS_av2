@@ -9,7 +9,7 @@ class Carro:
 
     def exibir(self):
         text_aparente = "Disponível" if self.disponivel == True else "Alugado"
-        print(f"INFORMAÇÕES DO CARRO\nMarca: {self.marca}\nModelo: {self.modelo}\nPlaca: {self.placa}\nValor da diária: {self.valorD}\nQuilometragem: {self.__quilometragem}\nDisponibilidade: {text_aparente}")
+        print(f"INFORMAÇÕES DO CARRO\nMarca: {self.marca}\nModelo: {self.modelo}\nPlaca: {self.placa}\nValor da diária: {self.valorD}\nQuilometragem: {self.__quilometragem}km\nDisponibilidade: {text_aparente}")
     
     def alugar(self):
         if (self.disponivel == True):
